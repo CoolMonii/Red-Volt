@@ -14,7 +14,7 @@
 
 ---
 
-# ⚡ About Red Volt Web
+# ⚡ About Red Volt Web Browser
 
 Red Volt Web is a fast, modern, and security - focused browser built using Microsoft Edge WebView2 and Microsoft Visual Studio.
 
