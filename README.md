@@ -1,2 +1,109 @@
-# Red-Volt
-Red Volt Web is a lightweight, security-focused browser built with Microsoft Edge WebView2 and Microsoft Visual Studio. Designed for speed, privacy, and low resource usage, it features tracker blocking, suspicious website detection, secure browsing, and a clean modern interface.
+<div align="center">
+
+<img src="assets/redvolt-banner.png" width="100%">
+
+# 🔴 Red Volt Web
+
+### Fast. Secure. Modern.
+
+<img src="https://img.shields.io/badge/platform-Windows%208.1%20%7C%2010%20%7C%2011-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/built%20with-WebView2-darkred?style=for-the-badge">
+<img src="https://img.shields.io/badge/status-Active%20Development-red?style=for-the-badge">
+
+<br><br>
+
+<img src="assets/browser-preview.png" width="85%">
+
+</div>
+
+---
+
+# ⚡ About Red Volt Web
+
+Red Volt Web is a fast, modern, and security-focused browser built using Microsoft Edge WebView2 and Microsoft Visual Studio.
+
+Designed for smooth performance, efficient resource usage, and secure browsing, Red Volt Web combines a clean interface, tracker protection, smart optimization, and responsive browsing for both older and modern Windows systems.
+
+---
+
+# ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+## 🔒 Security
+- Suspicious website detection
+- Secure browsing
+- Tracker blocking
+- HTTPS-first support
+- Safe download warnings
+
+</td>
+<td width="50%">
+
+## ⚡ Performance
+- Lightweight design
+- Smart tab sleeping
+- Reduced background usage
+- Smooth performance
+- Optimized resource usage
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🖼 Screenshots
+
+<div align="center">
+
+## 🏠 Home Page
+<img src="assets/homepage.png" width="85%">
+
+<br><br>
+
+## 🛡 Security Warning
+<img src="assets/security-warning.png" width="85%">
+
+</div>
+
+---
+
+# 🧠 Why Red Volt Web?
+
+✔ Clean and modern UI  
+✔ Fast startup speed  
+✔ Efficient memory usage  
+✔ Responsive browsing experience  
+✔ Security-focused design  
+✔ Built for Windows systems  
+
+---
+
+# 🚀 Built With
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=visualstudio,cs,cpp,windows">
+
+</div>
+
+---
+
+# 📂 Project Structure
+
+text id="8b0h0q" RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── security/ ├── downloads/ ├── tabs/ ├── settings/ └── README.md 
+
+---
+
+# ❤️ Red Volt Web
+
+<div align="center">
+
+<img src="assets/redvolt-logo.png" width="120">
+
+### Fast. Secure. Efficient.
+
+</div>
