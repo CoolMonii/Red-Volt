@@ -47,23 +47,6 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 
 </td>
 </tr>
-</table>
-
----
-
-# 🖼 Screenshots
-
-<div align="center">
-
-## 🏠 Home Page
-<img src="assets/homepage.png" width="85%">
-
-<br><br>
-
-## 🛡 Security Warning
-<img src="assets/security-warning.png" width="85%">
-
-</div>
 
 ---
 
