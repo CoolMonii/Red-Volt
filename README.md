@@ -2,8 +2,6 @@
 
 <img src="assets/redvolt-banner.png" width="100%">
 
-# 🔴 Red Volt Web
-
 ### Fast. Secure. Modern.
 
 <img src="https://img.shields.io/badge/platform-Windows%208.1%20%7C%2010%20%7C%2011-red?style=for-the-badge">
