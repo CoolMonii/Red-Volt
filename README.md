@@ -51,18 +51,6 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 
 ---
 
-## 🔒 Security
-- Suspicious website detection
-- Secure browsing
-- Tracker blocking
-- HTTPS-first support
-- Safe download warnings
-
-</td>
-<td width="50%">
-
----
-
 # 🧠 Why Red Volt Web?
 
 ✔ Clean and modern UI  
