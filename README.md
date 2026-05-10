@@ -62,7 +62,7 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 
 ---
 
-# 🚀 Built With
+# 🚀 Built with
 
 <div align="center">
 
@@ -72,7 +72,7 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 
 ---
 
-# 📂 Project Structure
+# 📂 Project structure
 
 RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── security/ ├── downloads/ ├── tabs/ ├── settings/ └── README.md 
 
@@ -90,7 +90,7 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 
 ---
 
-## System Requirements
+## System requirements
 
 ### Minimum
 - OS: Windows 8.1 / 10 / 11
