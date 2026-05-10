@@ -97,7 +97,7 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 - CPU: Dual-core 1.6 GHz
 - RAM: 2 GB
 - GPU: DirectX 10 compatible
-- Storage: 350 MB free space
+- Storage: 100 MB free space
 - Internet connection required
 - Required: Microsoft Edge WebView2 Runtime, .NET Framework 4.8
 
