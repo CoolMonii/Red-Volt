@@ -78,7 +78,7 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 
 ---
 
-# ❤️ Red Volt Web
+# ❤️ Red Volt Web Browser
 
 <div align="center">
 
