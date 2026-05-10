@@ -74,7 +74,7 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 
 # 📂 Project Structure
 
-text id="8b0h0q" RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── security/ ├── downloads/ ├── tabs/ ├── settings/ └── README.md 
+RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── security/ ├── downloads/ ├── tabs/ ├── settings/ └── README.md 
 
 ---
 
