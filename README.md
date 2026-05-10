@@ -108,3 +108,5 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 - GPU: DirectX 11 compatible
 - Storage: SSD recommended
 - Internet connection required
+
+Red Volt is closed - source, ask the owner for permission to use the source code.
