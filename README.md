@@ -75,21 +75,6 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 </td>
 <td width="50%">
 
-## ⚡ Performance
-- Lightweight design
-- Smart tab sleeping
-- Reduced background usage
-- Smooth performance
-- Optimized resource usage
-
-</td>
-</tr>
-</table>
-
-
-</td>
-</tr>
-
 ---
 
 # 🧠 Why Red Volt Web?
