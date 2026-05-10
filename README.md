@@ -51,7 +51,7 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 
 ---
 
-# 🧠 Why Red Volt Web?
+# 💡 Why Red Volt Web?
 
 ✔ Clean and modern UI  
 ✔ Fast startup speed  
