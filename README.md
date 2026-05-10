@@ -98,6 +98,7 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 - RAM: 2 GB
 - GPU: DirectX 10 compatible
 - Storage: 350 MB free space
+- Internet connection required
 - Required: Microsoft Edge WebView2 Runtime
 
 ### Recommended
