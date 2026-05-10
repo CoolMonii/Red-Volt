@@ -63,7 +63,7 @@ namespace RedVoltWebBrowser2
                     {
                         if (item != t && item.Content is WebView2 inactiveWv && inactiveWv.CoreWebView2 != null)
                         {
-                            // use property assignment not of set
+                            // lol so simple
                             inactiveWv.CoreWebView2.MemoryUsageTargetLevel = CoreWebView2MemoryUsageTargetLevel.Low;
                         }
                     }
