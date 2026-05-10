@@ -87,3 +87,21 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 ### Fast. Secure. Efficient.
 
 </div>
+
+## System Requirements
+
+### Minimum
+- OS: Windows 8.1 / 10 / 11
+- CPU: Dual-core 1.6 GHz
+- RAM: 2 GB
+- GPU: DirectX 10 compatible
+- Storage: 350 MB free space
+- Required: Microsoft Edge WebView2 Runtime
+
+### Recommended
+- OS: Windows 10 / 11
+- CPU: Quad-core 2.0 GHz+
+- RAM: 4 GB+
+- GPU: DirectX 11 compatible
+- Storage: SSD recommended
+- Internet connection required
