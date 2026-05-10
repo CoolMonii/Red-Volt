@@ -38,6 +38,27 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 </td>
 <td width="50%">
 
+## ⚡ Performance
+- Lightweight design
+- Smart tab sleeping
+- Reduced background usage
+- Smooth performance
+- Optimized resource usage
+
+</td>
+</tr>
+</table>
+
+## 🔒 Security
+- Suspicious website detection
+- Secure browsing
+- Tracker blocking
+- HTTPS-first support
+- Safe download warnings
+
+</td>
+<td width="50%">
+
 # ✨ Features
 
 <table>
