@@ -99,7 +99,7 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 - GPU: DirectX 10 compatible
 - Storage: 100 MB free space
 - Internet connection required
-- Required: Microsoft Edge WebView2 Runtime, .NET Framework 4.8
+- Required: Microsoft Edge WebView2, .NET Framework 4.8
 
 ### Recommended
 - OS: Windows 10 / 11
