@@ -57,7 +57,7 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 ✔ Fast startup speed  
 ✔ Efficient memory usage  
 ✔ Responsive browsing experience  
-✔ Security-focused design  
+✔ Security - focused design  
 ✔ Built for Windows systems  
 
 ---
