@@ -1,0 +1,94 @@
+<Window x:Class="RedVoltWebBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Red Volt Titanium" Height="850" Width="1300" 
+        WindowStyle="None" AllowsTransparency="False" Background="#0A0A0A"
+        ResizeMode="CanResizeWithGrip" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+
+    <Window.Resources>
+        <Style x:Key="TitaniumBtn" TargetType="Button">
+            <Setter Property="Background" Value="#111"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="btnBorder" Background="{TemplateBinding Background}" CornerRadius="6" Padding="10,5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="btnBorder" Property="Background" Value="#CC1A1A"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="TabItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabItem">
+                        <Border x:Name="TabBorder" CornerRadius="10,10,0,0" Background="#151515" Margin="3,5,0,0" Padding="15,7" BorderBrush="#331010" BorderThickness="1,1,1,0">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{TemplateBinding Header}" Foreground="White" MaxWidth="150" TextTrimming="CharacterEllipsis"/>
+                                <Button Content="✕" Foreground="Red" FontSize="10" Margin="10,0,0,0" Background="Transparent" BorderThickness="0" Cursor="Hand" Click="CloseTab_Click" Tag="{Binding RelativeSource={RelativeSource TemplatedParent}}"/>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="TabBorder" Property="Background" Value="#250505"/>
+                                <Setter TargetName="TabBorder" Property="BorderBrush" Value="Red"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#050505" BorderBrush="#1A1A1A" BorderThickness="0,0,0,1">
+            <DockPanel>
+                <TextBlock Text="RED VOLT TITANIUM" VerticalAlignment="Center" Margin="15,0" Foreground="Red" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource TitaniumBtn}" Content="─" Width="45" Click="MinBtn_Click"/>
+                    <Button Style="{StaticResource TitaniumBtn}" Content="▢" Width="45" Click="MaxBtn_Click"/>
+                    <Button Style="{StaticResource TitaniumBtn}" Content="✕" Width="45" Click="CloseBtn_Click" Foreground="Red"/>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <Border Grid.Row="1" Background="#0A0A0A" Padding="10,5">
+            <DockPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource TitaniumBtn}" Content="←" Width="40" Click="BackButton_Click"/>
+                    <Button Style="{StaticResource TitaniumBtn}" Content="→" Width="40" Click="ForwardButton_Click" Margin="5,0"/>
+                    <Button Style="{StaticResource TitaniumBtn}" Content="⟳" Width="40" Click="RefreshButton_Click"/>
+                    <Button Style="{StaticResource TitaniumBtn}" Content="+" Width="50" Click="NewTabButton_Click" Foreground="Red" FontSize="20" FontWeight="Bold" Margin="5,0"/>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                    <Button Style="{StaticResource TitaniumBtn}" Content="📜" Width="40" Click="OpenHistory_Click" Margin="2"/>
+                    <Button Style="{StaticResource TitaniumBtn}" Content="⬇️" Width="40" Click="OpenDownloads_Click" Margin="2"/>
+                    <Button Style="{StaticResource TitaniumBtn}" Content="⚙️" Width="40" Click="OpenSettings_Click" Margin="2"/>
+                </StackPanel>
+                <Border CornerRadius="15" Background="#121212" BorderBrush="#2A2A2A" BorderThickness="1" Margin="15,3">
+                    <TextBox x:Name="AddressBar" Background="Transparent" Foreground="White" BorderThickness="0" VerticalContentAlignment="Center" Padding="15,0" KeyDown="AddressBar_KeyDown" CaretBrush="Red"/>
+                </Border>
+            </DockPanel>
+        </Border>
+
+        <ProgressBar x:Name="SiteLoadingBar" Grid.Row="2" Background="Transparent" Foreground="Red" BorderThickness="0" Visibility="Hidden"/>
+
+        <TabControl x:Name="BrowserTabs" Grid.Row="3" Background="#0F0F0F" BorderThickness="0" SelectionChanged="BrowserTabs_SelectionChanged"/>
+    </Grid>
+</Window>
