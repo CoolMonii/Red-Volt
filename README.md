@@ -93,7 +93,7 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 ## System requirements
 
 ### Minimum
-- OS: Windows 8.1 / 10 / 11
+- OS: Windiws 7 SP1 / 8.1 / 10 / 11
 - CPU: Dual-core 1.6 GHz
 - RAM: 2 GB
 - GPU: DirectX 10 compatible
