@@ -95,7 +95,7 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 ### Minimum
 - OS: Windiws 7 SP1 / 8.1 / 10 / 11
 - CPU: Dual-core 1.6 GHz
-- RAM: 2 GB
+- RAM: 4 GB
 - GPU: DirectX 10 compatible
 - Storage: 100 MB free space
 - Internet connection required
