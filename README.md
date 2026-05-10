@@ -49,6 +49,8 @@ Designed for smooth performance, efficient resource usage, and secure browsing, 
 </tr>
 </table>
 
+---
+
 ## 🔒 Security
 - Suspicious website detection
 - Secure browsing
