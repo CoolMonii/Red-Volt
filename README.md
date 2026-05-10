@@ -104,7 +104,7 @@ RedVoltWeb/ ├── assets/ ├── browser/ ├── ui/ ├── securit
 ### Recommended
 - OS: Windows 10 / 11
 - CPU: Quad-core 2.0 GHz+
-- RAM: 4 GB+
+- RAM: 8 GB+
 - GPU: DirectX 11 compatible
 - Storage: SSD recommended
 - Internet connection required
